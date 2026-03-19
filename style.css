@@ -12203,36 +12203,6 @@ yx-axis
 	background-color: rgba(0, 0, 0, 0.45);
 }
 
-.swiper-slide-active {
-  background-size: 140% 140%;        
-  background-repeat: repeat;         
-  background-position: 0% 100%;      
-  
-  animation: diagonal-slow 80s linear infinite;   
-}
-
-@keyframes diagonal-slow {
-  0% {
-    background-position: 0% 100%;     /* inferior-esquerda */
-  }
-  100% {
-    background-position: 100% 0%;     /* superior-direita */
-  }
-}
-
-/* Opcional: pausa a animação quando o mouse passa em cima do slide */
-.swiper-slide-active:hover {
-  animation-play-state: paused;
-}
-
-/* Ajuste fino pra telas menores (opcional) */
-@media (max-width: 991px) {
-  .swiper-slide-active {
-    background-size: 180% 180%;      
-    animation-duration: 100s;       
-  }
-}
-
 @font-face {
 	font-family: lg;
 	src: url(../fonts/lg.eot?n1z373);
