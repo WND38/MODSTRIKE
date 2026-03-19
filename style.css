@@ -13356,7 +13356,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   background-repeat: repeat;         
   background-position: 0% 100%;        
   
-  animation: diagonal-slow 80s linear infinite;  
+  animation: diagonal-slow 50s linear infinite;  
 }
 
 
@@ -13370,8 +13370,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   }
 }
 
+.swiper-slide-active {
+  background-size: 140% 140%;
+  background-position: center center;
+  transition: all 1.2s ease;
+}
+
 .swiper-slide-active:hover {
-  animation-play-state: paused;
+  background-position: calc(50% + 40px) calc(50% + 30px); /* move na direção inversa */
+  transform: scale(1.06);
 }
 
 /*-- Chart --*/
