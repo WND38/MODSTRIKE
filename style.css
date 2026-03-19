@@ -12198,9 +12198,7 @@ yx-axis
 	}
 }
 
-/*
-* Lightgallery styles
-*/
+
 .lg-sub-html, .lg-toolbar {
 	background-color: rgba(0, 0, 0, 0.45);
 }
@@ -12213,7 +12211,6 @@ yx-axis
   animation: diagonal-slow 80s linear infinite;   
 }
 
-/* Keyframes da animação diagonal */
 @keyframes diagonal-slow {
   0% {
     background-position: 0% 100%;     /* inferior-esquerda */
@@ -12231,8 +12228,8 @@ yx-axis
 /* Ajuste fino pra telas menores (opcional) */
 @media (max-width: 991px) {
   .swiper-slide-active {
-    background-size: 180% 180%;       /* mais zoom em mobile pra compensar */
-    animation-duration: 100s;         /* ainda mais lento em mobile se quiser */
+    background-size: 180% 180%;      
+    animation-duration: 100s;       
   }
 }
 
