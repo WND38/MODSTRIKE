@@ -1,2 +1,2 @@
 # MODSTRIKE
-Palmod Patch for 3RD Strike
+Retrowave/Cyberfuturist pallete modification for 3RD Strike
