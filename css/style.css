@@ -15236,3 +15236,11 @@ img.mfp-img {
 	}
 }
 
+.variety-box-wrapper {
+    cursor: default !important;
+    pointer-events: auto; 
+}
+
+.variety-box-wrapper:hover {
+    cursor: default !important;
+}
