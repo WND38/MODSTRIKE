@@ -15244,3 +15244,8 @@ img.mfp-img {
 .variety-box-wrapper:hover {
     cursor: default !important;
 }
+
+html, body {
+    overflow-y: visible !important;
+    height: auto !important;
+}
